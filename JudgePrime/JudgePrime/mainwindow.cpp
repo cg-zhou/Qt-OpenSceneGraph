@@ -18,7 +18,7 @@ void MainWindow::on_pushButton_clicked()
 {
     QString text = ui->lineEdit->text();
     bool isNumber = false;
-    unsigned long long number = text.toULongLong(&isNumber);
+    ulonglong number = text.toULongLong(&isNumber);
     if (!isNumber || number < 2)
     {
         Tool::Warning("Not a valid number, please input a number between 2 ~ 18446744073709551615.");
