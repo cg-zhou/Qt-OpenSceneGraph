@@ -21,7 +21,6 @@ void MainWindow::on_pushButton_clicked()
     unsigned long long number = text.toULongLong(&isNumber);
     if (!isNumber || number < 2)
     {
-        //7FFFFFFFFFFFFFFF
         Tool::Warning("Not a valid number, please input a number between 2 ~ 18446744073709551615.");
         return;
     }
