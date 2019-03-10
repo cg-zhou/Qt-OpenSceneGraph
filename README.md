@@ -1,4 +1,4 @@
-# CodeFor_Thorlabs
+# OpenSceneGraph
 ### Draw 3D face
 VS2013 + OpenSceneGraph + Qt
 
